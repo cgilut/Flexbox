@@ -66,11 +66,22 @@
     width: 900px;
     flex-wrap: wrap;
     align-content:center;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
 .photo-grid-item
 {
     height: 300px;
     width: 300px;
+}
+
+.first-item
+{
+    order: -1;
+}
+
+.last-item  
+{
+    order: 1;
 }
