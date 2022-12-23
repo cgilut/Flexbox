@@ -3,22 +3,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  .menu-container 
-  {
+.menu-container 
+{
     display: flex;
     justify-content: center;
     color: #fff;
     background-color: #5995DA;  /* Blue */
     padding: 20px 0;
-  }
+}
   
-  .menu 
-  {
+.menu 
+{
     border: 1px solid #fff;  /* For debugging */
     width: 900px;
     display: flex;
     justify-content: space-between;
-  }
+}
   
+.links
+{
+    border: 1px solid #fff; /* For debugging */
+    display: flex;
+    justify-items: flex-end;
+}
+
+.login
+{
+    margin-left: 20px;
+}
