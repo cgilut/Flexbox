@@ -85,3 +85,38 @@
 {
     order: 1;
 }
+
+.social,
+.subscribe
+{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-item
+{
+    margin-top: 20px;
+    background-color: #8caacc;
+    height: 300px;
+    flex: 1;
+    border: 1px solid #fff;
+}
+
+.footer-three
+{
+    flex: 2;
+}
+
+.footer-one,
+.footer-three 
+{
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
